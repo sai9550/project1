@@ -1,0 +1,14 @@
+.Box1{
+	
+	height:300PX;
+	width:300px;
+	background-color:red;
+}
+.Box2{
+	height:300px;
+	width:100px;
+	background-color:green;
+	position:absolute;
+	right:615px;
+	top:10px;
+}

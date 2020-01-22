@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<body>
+First Name:<br>
+<input type="text" id="fName" /><br>
+Last Name: <br>
+<input type="text" id="lName" /><br>
+Gender: <br>
+<input type="text" id="gender" /><br>
+Age: <br>
+<input type="text" id ="age" /> <br>
+<input type="button" onclick="display()" id ="display" value="Display" /><br>
+<table id= "table" border="1">
+<tr>
+<th>Name</th>
+<th>Gender</th>
+<th>Age</th>
+</tr>
+</table>
+</body>
+<script>
+function display() {
+    var fNameElem = document.getElementById("fName");
+    var lNameElem = document.getElementById("lName");
+    var genderElem = document.getElementById("gender");
+    var ageElem = document.getElementById("age");
+    var tableElem = document.getElementById("table");
+        var newRow = tableElem.insertRow(-1);
+        var newCell = newRow.insertCell(0);
+        var newText = document.createTextNode(lNameElem.value + ", " + fNameElem.value);
+        newCell.appendChild(newText);
+        newCell = newRow.insertCell(1);
+        newText  = document.createTextNode(genderElem.value);
+        newCell.appendChild(newText);
+        newCell = newRow.insertCell(2);
+        newText  = document.createTextNode(ageElem.value);
+        newCell.appendChild(newText);
+        fNameElem.value = "";
+        lNameElem.value = "";
+        ageElem.value = "";
+        tableElem.value = "";
+  }
+</script>
+</html>

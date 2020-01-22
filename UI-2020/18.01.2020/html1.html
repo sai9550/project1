@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form  onSubmit = "return welcome();">
+    <h2>Please leave your contact information for us</h2>
+
+    <label for="FirstName">First Name:</label>
+    <input type="text" id="FirstName" name="firstName" placeholder="Your First Name"><br>
+
+    <label for="LastName">Last Name:</label>
+    <input type="text" id="LastName" name="LastName" placeholder="Your last Name"><br>
+
+   
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="passWord"><br>
+
+   
+    <p>What do you usually cook?</p>
+    <input type="text">
+    <button type="submit" >Give Us Help</button>
+    <p id="demo"></p>
+</body>
+<script type="text/javascript">
+	 function welcome(){
+    var first = document.getElementById("FirstName").value; 
+    var last = document.getElementById("LastName").value;
+    var pass = document.getElementById("password").value;
+    var welcomeF = "Welcome " + first +" "+ last+" "+pass;
+    
+    document.getElementById("demo").innerHTML=welcomeF;
+    window.alert(welcomeF);
+    return false; //To prevent it from going into next page.
+}
+</script>
+</html>

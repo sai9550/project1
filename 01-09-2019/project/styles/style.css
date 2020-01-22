@@ -1,0 +1,295 @@
+
+
+body
+{
+	background-color: #E68364;
+   	
+}
+
+
+
+
+/*navigation*/
+
+nav
+{
+	height: 50px;
+	width: 100%;
+    padding-top: 13px;
+	background-color:#CF000F;
+	position: sticky;
+	top:0;
+
+}
+nav ul li 
+{
+	float: left;
+	list-style-type:none;
+	padding-right: 40px;
+
+  
+}
+ul li a
+{
+text-decoration:none;
+color: white;
+font-family: 'Bubblegum Sans', cursive;
+
+}
+.dropdown
+{
+	padding-top: 13px;
+    height: 400px;
+    width: 300px;
+	display: none;
+}
+.dropdown a
+{  
+    padding: 10px;
+	display: block;
+	background-color: white;
+	color: red; 
+}
+.dropdownlist:hover .dropdown
+{
+	display: block;
+	position: absolute;
+}
+a:hover
+{    
+	text-decoration: underline;
+	color: black;
+	background-color: yellow;
+	padding: 14px;
+border-radius: 15%;
+
+
+}
+
+
+
+
+/*contact us page*/
+
+
+
+.map
+{
+	
+  height: 500px;
+  width: 48%;
+  float: left;
+  margin-top: 30px;
+}
+
+.form
+{
+
+	height: 500px;
+	width: 48%;
+	float: left;
+	margin-top: 30px;
+}
+
+
+
+/*title bar*/
+
+.container{
+	height: 550px;
+	width: 100%;
+
+}
+.background_image
+{
+	margin-top: 20px;
+	height: 250px;
+	width: 100%;
+	background-image: url("../images/hakuna_matata1.png");
+	background-position: center;
+	
+}
+
+
+/*what we provide*/
+
+
+h2,h3
+{
+	padding: 15px;
+	color: black;
+	
+	
+}
+.welcome
+{
+	height: 500px;
+	width: 100%;
+	background-color:white;
+	
+
+}
+p
+{
+	padding: 10px;
+	padding-top: 4px;
+	font-size: 20px;
+	text-align: justify;
+	margin: 10px;
+	color:black;
+	font-family: font-family: 'Dancing Script', cursive;
+}
+
+
+
+
+
+
+
+
+
+/*birthday page*/
+.bday
+{
+height: 200px;
+width: 100%;
+background-image: url("../images/candles.jpg");
+
+
+}
+
+.bigcontainer
+{
+	background-color: #fa6666;
+	height: 1800px;
+	width: 100%;
+
+	background-size: contain;
+}
+.b1,.b2,.b3,.b4,.b5,.b6,.b7
+{
+	background-image: url("../images/b2.jpg");
+	background-color: red;
+	height:250px;
+	width: 250px;
+	float: left;
+	margin:15px;
+	background-position: top;
+	background-size: contain;
+
+}
+.b2
+{
+	background-image: url("../images/b3.jpg");
+    background-size: contain;
+}
+.b3
+{
+	background-image: url("../images/b1.jpg");
+	background-size: contain;
+}
+.B1,.B2,.B3,.B4,.B5,.B6,.B7
+{
+background-color: #dbfbff;
+	height:355px;
+	width: 300px;
+	float: left;
+	margin:10px;
+	margin-bottom:80px;	
+
+}
+.B5
+{
+	clear: left;
+}
+.B1:hover,.B2:hover,.B3:hover,.B4:hover,.B5:hover,.B6:hover,.B7:hover
+{
+border: 1px  solid yellow;
+float: left;	
+transform-origin: 100% 0;
+
+ 
+}
+.aboutus
+{
+	background-color: white;
+}
+
+
+
+.bdaymsgs
+{
+
+height: 200px;
+width: 100%;
+background-image: url("../images/botle.jpg");
+background-size: contain;
+
+}
+
+.bdybotles
+{
+
+	height: 1200px;
+	width: 100%;
+
+}
+
+
+
+
+
+
+
+
+.BigBox
+{
+	margin-top: 15px;
+	height: 700px;
+	width: 100%;
+   background-color: white;
+}
+.Box1,.Box2,.Box3
+{
+    background-color:#fadcf4;
+	height:450px;
+	width: 300px;
+	float: left;
+	margin:70px;	
+	border:1px solid #CF000F;
+	border-radius: 10px;
+}
+.GreetingCard, .Book, .MessageBottle
+{  
+	background-image: url("../images/b3.jpg");
+	background-repeat: no-repeat;
+	background-color: red;
+	height:320px;
+	width: 270px;
+	float: left;
+	margin:15px;
+	background-position: top;
+}
+.Book
+{
+	background-image: url("../images/Book.jpg");
+	
+}
+.MessageBottle
+{
+	background-image: url("../images/message.jpg");
+}
+
+#provideBox
+{
+text-align: center;
+color: #CF000F;
+}
+
+
+.Box1:hover,.Box2:hover,.Box3:hover
+{
+  border: 4px  solid red;
+  float: left;
+
+}

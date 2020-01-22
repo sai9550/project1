@@ -1,0 +1,36 @@
+.Box1{
+	
+	height:200PX;
+	width:200px;
+	background-color:green;
+
+
+}
+.Box2{
+	height:200px;
+	width:200px;
+	background-color:red;
+	position:absolute;
+	right: 410px;
+	top: 10px;
+
+}
+.Box3{
+	
+	height:200px;
+	width:200px;
+	background-color:blue;
+	position:absolute;
+	right: 800px;
+	bottom: 10px;
+}
+.Box4{
+	
+	height:200PX;
+	width:200px;
+	background-color:yellow;
+	position:absolute;
+	right: 210px;
+	bottom: 10px;
+
+}

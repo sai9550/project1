@@ -1,0 +1,27 @@
+.a{
+	overflow:scroll;
+	height: 200px;
+	width: 100px;
+	border:1px solid red;
+}
+.b{
+	overflow: auto;
+	height: 200px;
+	width: 200px;
+	border:1px dotted green;
+
+}
+
+.c{
+	overflow: hidden;
+	height: 200px;
+	width: 100px;
+	border:1px solid blue;
+}
+
+.d{
+	overflow:visible;
+	height: 200px;
+	width: 100px;
+	border:1px solid brown;
+}

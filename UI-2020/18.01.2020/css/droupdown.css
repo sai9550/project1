@@ -1,0 +1,19 @@
+nav {
+background-color: brown;
+height: 40px;
+width: 100%;
+}
+
+nav ul li {
+float: left;
+margin-left: 20px;
+margin-top: 10px;
+
+}
+ul li {
+	list-style-type: none; 
+}
+ul li a{
+	color: white;
+	text-decoration: none;
+}

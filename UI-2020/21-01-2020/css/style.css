@@ -1,0 +1,85 @@
+nav{
+	background-color: blue;
+	height: 40px;
+	width: 100%;
+}
+nav ul li{
+	list-style-type: none;
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+ul li a{
+	color: white;
+ text-decoration: none;
+
+}
+h1{
+	text-align: center;
+	color: blue;
+}
+p{
+	text-align: justify;
+	font-size: 20px;
+}
+ 
+ .container{
+	width:100%;
+	margin-top: 30px;
+}
+
+.left {
+	width:60%;
+	float:left;
+}
+.right {
+	width:60px;
+	float: right;
+}
+input[type="text"] , input[type="email"], input[type="number"] {
+	border-radius:8px;
+	height:30px;
+	width:300px;
+	border-color:blue;
+}
+
+textarea{
+	border-radius:8px;
+	border-color:blue;
+}
+
+input[type="submit"] {
+	border-radius:8px;
+	height:30px;
+	width:300px;
+	border-color:blue;
+	background-color: blue;
+	color:white;
+}
+
+.a {
+	height: 100px;
+	width:100px;
+	overflow: hidden;
+	border:1px solid red;
+
+}
+.b {
+	height: 100px;
+	width:100px;
+	overflow: auto;
+	border:1px solid red;
+
+}
+.c {
+	height: 30px;
+	width:30px;
+	overflow: scroll;
+	border:1px solid red;
+}
+.d {
+	height: 100px;
+	width:100px;
+	overflow: visible;
+	border:1px solid red;
+}

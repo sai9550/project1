@@ -1,0 +1,30 @@
+
+.header{
+	background-color:green;
+
+	height:40px;
+	width: 100%;
+}
+.left{
+	background-color:blue;
+
+	height:40px;
+	width: 50%;
+	float: left;
+}
+
+.right{
+	background-color:yellow;
+
+	height:40px;
+	width: 50%;
+	float: right;
+}
+
+.footer{
+	clear:both ;
+	background-color:grey;
+
+	height:100px;
+	width: 100%;
+}
